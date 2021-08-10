@@ -29,7 +29,7 @@ player_schema = {
 }
 
 def setup_module(module):
-    cmd = './ser_ver &'
+    cmd = './twtask &'
     os.system(cmd)
     wait_until_server_up()
 
