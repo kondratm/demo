@@ -2,10 +2,10 @@
 
 1. Clone project
 
-2. If you have Pytest html report installed, run this project as and observe report link at the end of terminal output:
-pytest --html=report.html main.py
+2. Run in terminal: 
+pip3 install -r requirements.txt --no-index
 
-If not, run with:
-pytest main.py
+3. Run this project and observe report link at the end of terminal output:
+pytest --html=report.html main.py
 
 Enjoy!
